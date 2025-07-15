@@ -17,9 +17,9 @@ import serial
 import atexit
 
 # Configure your OpenAI and Spotify API credentials
-openai.api_key = "sk-bx5TPcqnin29-wYwB7ddjyQQ5CdhMfL3DPik97pEsqT3BlbkFJ8JoexwCNpPOgVcDryTqoGGaPLJLrUKSb07bHzEagkA"
-spotify_client_id = "1ff71e9c843e4e11a2a4397ed80f668f"
-spotify_client_secret = "a0a35cdfaa2845f38f9b0bf626ccb341"
+openai.api_key = # "Replace with your OpenAI API key"
+spotify_client_id = # "Replace with your Spotify client ID"
+spotify_client_secret = # "Replace with your Spotify client secret"
 spotify_redirect_uri = "http://localhost:8888/callback"
 
 
