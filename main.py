@@ -22,7 +22,6 @@ spotify_client_id = # "Replace with your Spotify client ID"
 spotify_client_secret = # "Replace with your Spotify client secret"
 spotify_redirect_uri = "http://localhost:8888/callback"
 
-
 # Set up Spotify authentication
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=spotify_client_id,
                                                client_secret=spotify_client_secret,
@@ -89,7 +88,7 @@ def audio_to_text():
 def analyze_text_for_time(text):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer sk-bx5TPcqnin29-wYwB7ddjyQQ5CdhMfL3DPik97pEsqT3BlbkFJ8JoexwCNpPOgVcDryTqoGGaPLJLrUKSb07bHzEagkA"
+        "Authorization": # "Replace with your OpenAI API key"
     }
     text = word_to_num(text)  # Convert number words to digits in the input text
     prompt = (
@@ -301,17 +300,9 @@ def stop_music_and_clear():
     wake_up_label.config(text="")  # Clear everything from the alarm display
 
 
-# 设置缓存文件的路径
+# 更换成缓存文件的路径
 cache_path = "C:/Users/DELL/Desktop/Physical Interaction/Project 2/音乐代码/.cache"
 
-# 配置 SpotifyOAuth 并指定缓存路径
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="1ff71e9c843e4e11a2a4397ed80f668f",
-    client_secret="a0a35cdfaa2845f38f9b0bf626ccb341",
-    redirect_uri="http://localhost:8888/callback",
-    scope="user-read-playback-state,user-modify-playback-state",
-    cache_path=cache_path  # 指定缓存文件路径
-))
 
 # 检查并删除已有的缓存文件
 if os.path.exists(cache_path):
