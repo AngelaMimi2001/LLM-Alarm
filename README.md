@@ -1,6 +1,6 @@
-# Echotune – Smart LLM-based Alarm
+# Smart LLM-based Alarm
 
-Echotune is an AI-powered reminder alarm clock that uses **large language models (LLMs)** and **Natural Language Processing (NLP)** to understand spoken schedules and assess task urgency. By integrating **OpenAI (ChatGPT) and Spotify APIs**, the system generates personalized alarms—with matching music, lighting, and on-screen displays—tailored to each activity. It is designed as a **hardware + software** system and requires the accompanying Arduino-based device to run properly.
+This is an AI-powered reminder alarm clock that uses **large language models (LLMs)** and **Natural Language Processing (NLP)** to understand spoken schedules and assess task urgency. By integrating **OpenAI (ChatGPT) and Spotify APIs**, the system generates personalized alarms—with matching music, lighting, and on-screen displays—tailored to each activity. It is designed as a **hardware + software** system and requires the accompanying Arduino-based device to run properly.
 
 ---
 
