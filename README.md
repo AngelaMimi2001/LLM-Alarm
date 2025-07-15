@@ -45,7 +45,6 @@ Echotune is an AI-powered reminder alarm clock that uses **large language models
 3. **File Storage Path Configuration**  
    - The default cache or temporary file paths in `Echotune.py` may need to be modified based on your system.  
    - For example, replace any hardcoded paths like:
-
       ```python
       cache_path = "C:/Users/YourName/Desktop/main/.cache"
       
@@ -57,7 +56,8 @@ Echotune is an AI-powered reminder alarm clock that uses **large language models
 
 ### 2. Install Dependencies
 Make sure you have **Python 3.8+** installed.
-pip install -r requirements.txt
+   ```python
+   pip install -r requirements.txt
 
 ### 3. Upload Arduino Sketches
 Open Light.ino and Screen.ino in Arduino IDE
