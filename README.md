@@ -43,7 +43,7 @@ Echotune is an AI-powered reminder alarm clock that uses **large language models
      - **Spotify client ID and secret**  
 
 3. **File Storage Path Configuration**  
-   - The default cache or temporary file paths in `Echotune.py` may need to be modified based on your system.  
+   - The default cache or temporary file paths in `main.py` may need to be modified based on your system.  
    - For example, replace any hardcoded paths like:
       ```python
       cache_path = "C:/Users/YourName/Desktop/main/.cache"
