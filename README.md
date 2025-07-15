@@ -56,8 +56,7 @@ Echotune is an AI-powered reminder alarm clock that uses **large language models
 
 ### 2. Install Dependencies
 Make sure you have **Python 3.8+** installed.
-      ```python
-      pip install -r requirements.txt
+Then install the packages in requirements.txt
 
 ### 3. Upload Arduino Sketches
 Open Light.ino and Screen.ino in Arduino IDE
