@@ -33,7 +33,7 @@ Echotune is an AI-powered reminder alarm clock that uses **large language models
 1. **Hardware Dependency**  
    - This project requires the **Arduino-based hardware** I built specifically for this system.  
    - The Python code alone will not produce the full experience without connecting to this hardware.
-   - - **You also need to modify the actual hardware port name** in `main.py` according to your setup, for example:  
+   - **You also need to modify the actual hardware port name** in `main.py` according to your setup, for example:  
       ```python
       arduino_port = "COM3"  # Change to the correct port, e.g., "COM5"
 
